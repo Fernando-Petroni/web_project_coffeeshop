@@ -47,22 +47,92 @@
   </head>
 
   <body>
-    <a href="./web_project_coffeeshop/">Coffee Shop</a>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Peaks Coffee Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#content" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#events" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="#membership" class="nav__link">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span>
+          na biblioteca Triple Peaks
+        </h1>
+
+        <p class="header__description">
+          Bem-vindo à nossa zona de estudo! Temos aquele cafezinho para
+          energizar você e vibrações aconchegantes para ajudá-lo a ser criativo.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the coffe'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__footer__list">
+            <li>Horários:</li>
+            <li>Segunda a sexta (10:00 – 19:00)</li>
+            <li>Sábado a Domingo (11:00 – 18:00)</li>
+          </ul>
+
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
 
       <main class="content">
         <section class="recipes">
-          <h2 class="recipes__title"></h2>
-          <div class="recipes__iframe"></div>
-          <div class="recipes__column-content-hours">
-            <h3 class="recipes__column-heading"></h3>
-            <ul class="recipes__list">
-              <li class="recipes__list-item"></li>
-              <li class="recipes__list-item"></li>
-            </ul>
-          </div>
-        </section>
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+          </p>
+          <div class="recipes__video">
+            <div class="recipes__iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                title="The Ultimate AeroPress Technique (Episode #3)"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="The Ultimate French Press Technique"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              </div>
+              <div class="recipes__video-caption">
+                <div class="recipes__video-caption__aeropress">
+                  <p>Receita Aeropress&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ~5 min</p>
+                </div>
+                <div class="recipes__video-caption__francesa">
+                  <p>Receita Imprensa Francesa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ~15 min</p>
+                </div>
+              </div>
+            </section>
 
         <section class="reservation">
           <h2 class="reservation__title"></h2>
