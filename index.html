@@ -60,13 +60,13 @@
               <a href="#recipes" class="nav__link">Receitas</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Reservar uma mesa</a>
+              <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
             <li>
-              <a href="#" class="nav__link">Contatos</a>
+              <a href="#about" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -103,8 +103,8 @@
           <p class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </p>
-          <div class="recipes__video">
-            <div class="recipes__iframe">
+          <div class="recipes__videos">
+            <div class="recipes__videos__iframe">
               <iframe
                 width="480"
                 height="273"
@@ -114,23 +114,25 @@
                 allowfullscreen
               ></iframe>
             </div>
-            <iframe
-              width="480"
-              height="273"
-              src="https://www.youtube.com/embed/st571DYYTR8"
-              title="The Ultimate French Press Technique"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-            <div class="recipes__video-caption">
-              <div class="recipes__video-caption__aeropress">
-                <p class="recipes__video-caption__aeropress__text">
+            <div class="recipes__videos__iframe">
+              <iframe
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                title="The Ultimate French Press Technique"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="recipes__videos__video-caption">
+              <div class="recipes__videos__video-caption__aeropress">
+                <p class="recipes__videos__video-caption__aeropress__text">
                   Receita Receita
                   Aeropress&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ~5 min
                 </p>
-                <div class="recipes__video-caption__francesa">
-                  <p class="recipes__video-caption__francesa__text">
+                <div class="recipes__videos__video-caption__francesa">
+                  <p class="recipes__videos__video-caption__francesa__text">
                     Receita Imprensa
                     Francesa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     ~15 min
@@ -141,18 +143,18 @@
           </div>
         </section>
 
-        <section class="reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation__title"></h2>
           <div class="reservation__content"></div>
         </section>
 
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2 class="menu__title"></h2>
           <p class="menu__subtitle"></p>
           <div class="menu__drink-and-foods"></div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
           <h2 class="about__title"></h2>
           <p class="about__paragraph"></p>
         </section>
