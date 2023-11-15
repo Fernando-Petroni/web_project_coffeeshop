@@ -126,16 +126,19 @@
 
             <div class="video-caption">
               <div class="video-caption__aeropress">
+                <p class="video-caption__aeropress-text">Receita Aeropress</p>
                 <p class="video-caption__aeropress-text">
-                  Receita Receita
-                  Aeropress&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ~5 min
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~5
+                  min
                 </p>
                 <div class="video-caption__francesa">
                   <p class="video-caption__francesa-text">
-                    Receita Imprensa
-                    Francesa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    ~15 min
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspReceita
+                    Imprensa
+                  </p>
+                  <p class="video-caption__francesa-text">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~15
+                    min
                   </p>
                 </div>
               </div>
@@ -143,9 +146,73 @@
           </div>
         </section>
 
-        <section class="reservation" id="reservation">
-          <h2 class="reservation__title"></h2>
-          <div class="reservation__content"></div>
+        <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Nome*</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Nome"
+                required
+              />
+
+              <label for="number" class="form__label"
+                >Número de Convidados*
+              </label>
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                id="number"
+                name="number"
+                placeholder="1-8"
+                required
+              />
+
+              <label for="datetime-local" class="form__label"
+                >Data e Hora*</label
+              >
+              <input
+                class="form__input"
+                type="datetime-local"
+                id="datetime-local"
+                name="datetime-local"
+                required
+              />
+
+              <label for="email" class="form__label">Seu e-mail*</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+                required
+              />
+
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
+
+              <div class="form__checkbox">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                  class="form__checkbox-option"
+                  checked
+                />
+                <label for="checkbox" class="form__checkbox-terms"
+                  >Eu concordo com os termos de uso</label
+                >
+              </div>
+            </fieldset>
+          </form>
         </section>
 
         <section class="menu" id="menu">
