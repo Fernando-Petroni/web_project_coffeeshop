@@ -313,6 +313,7 @@
   justify-content: center;
   position: relative;
   top: 52px;
+  gap: 20px;
 }
 
 .form__checkbox-option {
