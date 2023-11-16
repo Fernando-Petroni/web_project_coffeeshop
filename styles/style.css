@@ -137,6 +137,9 @@
 .recipes {
   background-color: #0a2750;
   background-image: url(/images/background_recipes.svg);
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
 }
 
@@ -328,4 +331,99 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+/* ----------- menu -------------------- */
+
+/* ----------- Title -------------------- */
+
+.menu {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  background-color: #fff;
+  background-image: url(/images/background_menu.svg);
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.menu__title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.menu__title-text {
+  max-width: 780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  bottom: 24px;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  top: 24px;
+  bottom: 100px;
+}
+
+/* ----------- Cards -------------------- */
+
+.menu__cards {
+  width: 540px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.card__filtro {
+  width: 540px;
+}
+
+.card__list {
+}
+
+.card__title {
+  list-style-type: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px 0;
+}
+
+.card__list-item {
+  list-style-type: none;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 16px 0 16px 0;
+}
+
+.card__expresso {
+  width: 540px;
+}
+
+.card__padaria {
+  width: 540px;
+}
+
+.card__list-divider {
+  margin: 0;
 }
