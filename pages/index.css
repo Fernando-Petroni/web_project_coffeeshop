@@ -1,7 +1,7 @@
 /* pages/index.css */
 
 @import url("../vendor/normalize.css");
-
+@import url("../Block/Page/page.css");
 @import url("../Block/Header/header.css");
 @import url("../Block/Reservation.css/");
 @import url("../Block/Reservation.css/about.css");
