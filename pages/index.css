@@ -3,9 +3,9 @@
 @import url("../vendor/normalize.css");
 @import url("../Block/Page/page.css");
 @import url("../Block/Header/header.css");
-@import url("../Block/Reservation.css/");
-@import url("../Block/Reservation.css/about.css");
-@import url("../Block/Recipes.css/");
-@import url("../Block/Menu.css/");
-@import url("../Block/Sobre.css/");
-@import url("../Block/Footer.css/");
+@import url("../Block/Recipes/recipes.css");
+@import url("../Block/Reservation/reservation.css");
+@import url("../Block/Menu/menu.css");
+@import url("../Block/Sobre/sobre.css");
+@import url("../Block/Sobre/about.css");
+@import url("../Block/Footer/footer.css");
