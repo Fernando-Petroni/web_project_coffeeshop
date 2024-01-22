@@ -6,4 +6,4 @@
 
 # Fernando Carvalho Petroni
 
-criar um menu lateral ao invés do header horizontal
+Página criada em HTML e CSS
