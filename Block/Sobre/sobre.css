@@ -1,7 +1,7 @@
 /* -----------Sobre o café -------------------- */
 
 .about {
-  padding: 80px;
+
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
@@ -21,8 +21,8 @@
   max-width: 251px;
   margin: 0;
   padding: 0;
-  top: 100px;
-  left: 80px;
+  margin-top: 100px;
+  margin-left: 80px;
   z-index: 0;
 }
 
@@ -34,10 +34,10 @@
   line-height: 30px;
   max-width: 660px;
   margin: 0;
-  padding: 0;
-  right: 80px;
-  top: 119px;
-  bottom: 173px;
+
+  margin-right: 80px;
+  margin-top: 119px;
+  margin-bottom: 173px;
 }
 
 .about__paragraph {

@@ -102,6 +102,7 @@
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </p>
           <div class="recipes__videos">
+            <div class="recipe__video-item">
             <iframe
               class="recipes__iframe"
               width="480"
@@ -111,7 +112,11 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-
+            <ul class="recipes__video-caption">
+              <li class="recipes__video-list">Receita Aeropress <span>~5min</span></li>
+            </ul>
+          </div>
+            <div class="recipe__video-item">
             <iframe
               class="recipes__iframe"
               width="480"
@@ -121,27 +126,10 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
-
-            <div class="video-caption">
-              <div class="video-caption__aeropress">
-                <p class="video-caption__aeropress-text">Receita Aeropress</p>
-                <p class="video-caption__aeropress-text">
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~5
-                  min
-                </p>
-                <div class="video-caption__francesa">
-                  <p class="video-caption__francesa-text">
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspReceita
-                    Imprensa
-                  </p>
-                  <p class="video-caption__francesa-text">
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp~15
-                    min
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+            <ul class="recipes__video-caption">
+              <li class="recipes__video-list">Receita Imprensa <span>~15min</span></li>
+            </ul>
+                  </div>
         </section>
 
         <section id="reservation" class="reservation">
@@ -329,18 +317,17 @@
             />
           </div>
 
-          <div class="footer__social-heading">
-            <h2 class="footer__social-title">Mídia Social</h2>
-            <ul class="footer__list">
-              <li class="footer__list-chart">
-                <img
+          <div class="footer__social">
+            <ul class="footer__social-heading">Mídia Social
+              <li class="footer__list">
+               <img
                   src="./images/facebook_white.svg"
                   alt="logo do facebook"
                   class="footer__social-icon"
                 />
                 <a href="#" class="footer__social-link">Facebook</a>
               </li>
-              <li class="footer__list-chart">
+              <li class="footer__list">
                 <img
                   src="./images/instagram_white.svg"
                   alt="logo do Instagram"
