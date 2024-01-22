@@ -1,11 +1,11 @@
 /* pages/index.css */
 
 @import url("../vendor/normalize.css");
-@import url("../blocks/Page/page.css");
-@import url("../blocks/Header/header.css");
-@import url("../blocks/Recipes/recipes.css");
-@import url("../blocks/Reservation/reservation.css");
-@import url("../blocks/Menu/menu.css");
-@import url("../blocks/Sobre/sobre.css");
-@import url("../blocks/Sobre/about.css");
-@import url("../blocks/Footer/footer.css");
+@import url("../blocks/Page/page.css.css");
+@import url("../blocks/Header/header.css.css");
+@import url("../blocks/Recipes/recipes.css.css");
+@import url("../blocks/Reservation/reservation.css.css");
+@import url("../blocks/Menu/menu.css.css");
+@import url("../blocks/Sobre/sobre.css.css");
+@import url("../blocks/Sobre/about.css.css");
+@import url("../blocks/Footer/footer.css.css");
