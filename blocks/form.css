@@ -52,6 +52,7 @@
   background-color: #2f80ed;
   transition: 0.4s ease-in;
   bottom: 32px;
+  cursor: pointer;
 }
 
 .form__button:focus {

@@ -71,8 +71,7 @@
 .header__footer-list {
   list-style-type: none;
   padding: 0;
-  margin-left: 80px;
-  margin-bottom: 40px;
+  margin: auto 0 40px 80px;
 }
 
 .header__address {
