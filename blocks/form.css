@@ -3,11 +3,6 @@
   display: flex;
 }
 
-.reservation__form {
-  max-width: 385px;
-  height: 60px;
-}
-
 .form__fieldset {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;

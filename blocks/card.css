@@ -1,10 +1,6 @@
 /* ----------- Cards -------------------- */
 
-.menu__cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+
 
 .card {
   width: 540px;

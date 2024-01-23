@@ -42,3 +42,8 @@
   margin-bottom: 100px;
 }
 
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

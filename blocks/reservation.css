@@ -24,3 +24,7 @@
   margin-top: 100px;
 }
 
+.reservation__form {
+  max-width: 385px;
+  height: 60px;
+}
