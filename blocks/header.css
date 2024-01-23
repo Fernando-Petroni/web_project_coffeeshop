@@ -12,44 +12,6 @@
   background-size: cover;
   background-position: center;
 }
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  position: relative;
-  margin: 0px;
-  padding: 30px;
-  display: block;
-  height: 39px;
-  width: 105px;
-}
-
-.nav__links {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-top: 30px;
-  margin-right: 80px;
-  display: flex;
-  justify-content: flex-end;
-  margin-left: auto;
-  column-gap: 20px;
-  list-style-type: none;
-}
-
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-}
 
 .header__title {
   max-width: 729px;
